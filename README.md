@@ -1,37 +1,39 @@
-# Student Registration System
+# 🎓 Student Registration System
 
-A desktop and web-based Student Registration System built using **Python, Tkinter, MySQL, and Streamlit**.
+A complete **Student Registration System** built using **Python, Tkinter, MySQL, and Streamlit**.
 
-This project helps manage student records with database integration. It provides a graphical interface to add, view, update, and manage student information efficiently.
+This project helps manage student information efficiently with a desktop GUI application and a web-based interface connected with a MySQL database.
 
 ---
 
 ## 🚀 Features
 
-- Add new student records
-- View student details
-- Update existing records
-- Delete student records
-- MySQL database integration
-- User-friendly Tkinter GUI
-- Streamlit web interface
-- Structured database management
+- ✅ Add new student records
+- ✅ View student details
+- ✅ Update existing student information
+- ✅ Delete student records
+- ✅ MySQL database connectivity
+- ✅ User-friendly Tkinter desktop interface
+- ✅ Streamlit web application
+- ✅ CRUD operations implementation
 
 ---
 
-## 🛠️ Technologies Used
+## 🛠️ Tech Stack
 
-- **Python**
-- **Tkinter** (GUI Development)
-- **MySQL** (Database)
-- **MySQL Connector Python**
-- **Streamlit** (Web Application)
+| Technology | Purpose |
+|---|---|
+| Python | Core Programming Language |
+| Tkinter | Desktop GUI Development |
+| MySQL | Database Management |
+| Streamlit | Web Application Interface |
+| MySQL Connector | Database Connectivity |
 
 ---
 
 ## 📂 Project Structure
 
-```
+```text
 Student-Registration-System/
 
 │
@@ -41,12 +43,16 @@ Student-Registration-System/
 ├── database_setup.sql
 ├── requirements.txt
 ├── README.md
-└── .env.example
+├── .env.example
+│
+└── Screenshots/
+    ├── main_application.png
+    └── streamlit_app.png
 ```
 
 ---
 
-## ⚙️ Installation
+## ⚙️ Installation & Setup
 
 ### 1. Clone Repository
 
@@ -60,7 +66,7 @@ git clone https://github.com/vineetanalytics/Student-Registration-System.git
 cd Student-Registration-System
 ```
 
-### 3. Install Required Libraries
+### 3. Install Dependencies
 
 ```bash
 pip install -r requirements.txt
@@ -70,14 +76,14 @@ pip install -r requirements.txt
 
 ## 🗄️ Database Setup
 
-1. Open MySQL Workbench or MySQL Command Line.
-2. Run:
+1. Open MySQL Workbench.
+2. Run the SQL file:
 
-```
+```text
 database_setup.sql
 ```
 
-3. Update MySQL connection details according to your system.
+3. Configure your database credentials.
 
 Example:
 
@@ -90,15 +96,15 @@ database="STUDENT_REGISTRATION_DB"
 
 ---
 
-## ▶️ Run Application
+## ▶️ How to Run
 
-### Tkinter Desktop Application
+### Desktop Application (Tkinter)
 
 ```bash
 python student_management_system.py
 ```
 
-### Streamlit Application
+### Web Application (Streamlit)
 
 ```bash
 streamlit run streamlit_app.py
@@ -108,24 +114,27 @@ streamlit run streamlit_app.py
 
 ## 📸 Screenshots
 
-Add application screenshots here:
+### 🖥️ Desktop Application
 
-```
-screenshots/
-```
+![Student Management System](Screenshots/main_application.png)
+
+
+### 🌐 Streamlit Application
+
+![Streamlit Application](Screenshots/streamlit_app.png)
 
 ---
 
-## 🎯 Learning Outcomes
+## 📚 Learning Outcomes
 
-Through this project, I practiced:
+Through this project, I learned:
 
 - Python GUI development
-- Database connectivity
+- Database integration with MySQL
 - CRUD operations
-- SQL queries
+- SQL database design
 - Streamlit application development
-- Project structure and GitHub workflow
+- Git and GitHub project management
 
 ---
 
@@ -138,4 +147,4 @@ https://github.com/vineetanalytics
 
 ---
 
-⭐ If you find this project useful, consider giving it a star.
+⭐ If you like this project, consider giving it a star.
